@@ -5,7 +5,7 @@
 # 프로젝트 개요
 
 - 연구 주제: 단안 카메라 기반 3D 객체 검출
-- 모델: MonoDGP[https://arxiv.org/abs/2303.16878](https://arxiv.org/abs/2410.19590)
+- 모델: MonoDGP[논문][https://arxiv.org/abs/2303.16878](https://arxiv.org/abs/2410.19590)
 - 원본 코드: [https://github.com/PuFanqi23/MonoDGP](https://github.com/PuFanqi23/MonoDGP)
 - 연구 목적: 논문 기반 재현 및 성능 개선, 파라미터 실험
 
