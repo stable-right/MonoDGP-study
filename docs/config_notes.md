@@ -1,9 +1,9 @@
 # 설정 변경 내역
 
 ### 사용 환경
-- OS: Windows 10 (Anaconda 환경)
+- OS: Windows 11 (Anaconda 환경)
 - Python 3.9 / CUDA 11.1
-- GPU: RTX 3060 6GB
+- GPU: RTX 1060 6GB
 
 ### 수정한 설정 (configs/monodgp.yaml 기준)
 - `batch_size`: 8 → 4  (VRAM 부족 문제)
