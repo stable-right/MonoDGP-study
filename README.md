@@ -28,8 +28,6 @@
 
   # 주요 디렉토리 구조
   
-### 주요 디렉토리 구조
-
 ```plaintext
 MonoDGP-study/
 ├── configs/              # 학습 설정 파일 (.yaml)
@@ -52,7 +50,7 @@ MonoDGP-study/
 ├── train.sh              # 학습 실행용 bash 스크립트
 ├── split_kitti.py        # train/val 나누는 스크립트
 └── README.md             # 프로젝트 소개 문서
-
+```
 
 # 학습 실행 방법
 
