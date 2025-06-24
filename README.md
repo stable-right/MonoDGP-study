@@ -30,26 +30,21 @@
   
 ```plaintext
 MonoDGP-study/
-├── configs/              # 학습 설정 파일 (.yaml)
-├── data/                 
-│   └── kitti/            # KITTI 데이터셋 구성
-│       ├── training/
-│       │   ├── image_2/  # 학습 이미지
-│       │   ├── label_2/  # 라벨 파일
-│       │   └── calib/    # 카메라 보정 파라미터
-│       ├── testing/
-│       │   ├── image_2/  # 테스트 이미지
-│       │   └── calib/    # 테스트용 보정 파일
-│       └── ImageSets/
-│           ├── train.txt # 학습 이미지 ID
-│           └── val.txt   # 검증 이미지 ID
-├── lib/                  # 모델 코드 및 CUDA 확장 연산
-├── tools/                # 학습/테스트 스크립트
-│   └── train_val.py      # 학습 실행 스크립트
-├── logs/                 # 학습 중 출력된 로그 파일 저장소
-├── train.sh              # 학습 실행용 bash 스크립트
-├── split_kitti.py        # train/val 나누는 스크립트
-└── README.md             # 프로젝트 소개 문서
+├── configs/            # 실험에 사용한 YAML 설정 파일들
+├── data/kitti/         # KITTI 데이터셋 구성 디렉토리
+│   ├── ImageSets/         # train.txt, val.txt 등 split 파일
+│   ├── training/          # 학습 이미지 및 라벨
+│   └── testing/           # 테스트 이미지
+├── docs/              # 문서 정리용 디렉토리 (설정, 결과, 로그 등)
+│   ├── config_notes.md      # 설정 파일 수정 내역
+│   ├── train_results.md     # 실험 결과 기록
+│   └── debug_log.md         # 오류 해결 과정 정리
+├── lib/               # MonoDGP 모델 및 커스텀 CUDA 연산
+├── logs/              # 학습 로그 저장
+├── tools/             # train/test 실행 스크립트 모음
+├── split_kitti.py     # KITTI 데이터셋 train/val 분할 스크립트
+├── train.sh           # 학습 실행용 bash 스크립트
+└── README.md          # 프로젝트 소개 및 개요
 ```
 
 # 학습 실행 방법
