@@ -1,0 +1,9 @@
+pyyaml              # config.yaml 파싱용
+scipy               # 수치 계산
+opencv-python       # 이미지 처리
+numba==0.54.1       # CUDA 커스텀 연산 관련 (버전 고정)
+llvmlite==0.37.0    # numba 필수 의존성
+scikit-image        # 이미지 처리
+scikit-learn        # 평가 메트릭 등
+tqdm                # 진행바 출력
+thop                # 모델 FLOPs 계산
