@@ -3,7 +3,7 @@
 ### 사용 환경
 - OS: Windows 11 (Anaconda 환경)
 - Python 3.9 / CUDA 11.1
-- GPU: RTX 5060ti 16GB
+- GPU: GTX 1060 8GB -> RTX 5060ti 16GB로 변경
 
 ### 수정한 설정 (configs/monodgp.yaml 기준)
 - `batch_size`: 8 → 4  (VRAM 부족 문제)
