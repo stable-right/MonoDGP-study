@@ -4,7 +4,7 @@
 ## 2025-08-31
 - 추가: `lib/datasets/kitti/kitti_eval_python/iou_backend.py` (OpenCV CPU IoU)
 - 수정: `lib/datasets/kitti/kitti_eval_python/eval.py` (IoU import 교체)
-- 수정: `lib/models/monodgp/ops/csrc/ms_deform_attn_cuda.cpp`
+- 수정: `"lib/models/monodgp/ops/src/cuda/ms_deform_attn_cuda.cu"`
   - `.type().is_cuda()` → `.is_cuda()`
   - `AT_DISPATCH_FLOATING_TYPES(value.type(),` → `AT_DISPATCH_FLOATING_TYPES(value.scalar_type(),`
 - 수정: `lib/models/monodgp/ops/modules/ms_deform_attn.py`
