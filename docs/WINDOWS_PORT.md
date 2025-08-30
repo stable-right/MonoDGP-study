@@ -8,6 +8,11 @@
 - Visual Studio 2022(Build Tools) 설치 (CUDA 컴파일 연동)
 - `TORCH_CUDA_ARCH_LIST=12.0` 설정(아키텍처 지정)
 
+## 이슈
+- nvcc not found: CUDA_HOME/PATH 확인
+- no kernel image available: TORCH_CUDA_ARCH_LIST 누락
+- Torch/CUDA 버전 불일치: torch.__version__ 재확인
+
 ## 빌드 명령(ops 디렉토리에서)
 ```bat
 cd lib\models\monodgp\ops
