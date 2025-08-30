@@ -1,0 +1,11 @@
+data/
+outputs/
+*.pth
+*.log
+build/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
