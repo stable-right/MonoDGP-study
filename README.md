@@ -48,3 +48,11 @@
   ```yaml
   dataset:
     root_dir: ..\MonoDGP\data\kitti
+  ```
+
+  ## 평가/학습
+
+  ```
+  python tools/train_val.py --config configs\monodgp_windows_example.yaml
+  python tools/train_val.py --config configs\monodgp_windows_example.yaml -e
+  ```
