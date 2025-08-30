@@ -1,6 +1,6 @@
 # MonoDGP-study (Windows + CUDA 12.8, RTX 50xx)
 
-본 레포는 [PuFanqi23/MonoDGP](https://github.com/PuFanqi23/MonoDGP)를 Windows + CUDA 12.8 + RTX 50xx(SM 12.0) 환경에서  실행/학습/평가 가능 하도록 정리한 연구용 포크입니다.  
+본 레포는 [PuFanqi23/MonoDGP](https://github.com/PuFanqi23/MonoDGP)를 Windows + CUDA 12.8 + RTX 50xx(SM 12.0) 환경에서  실행/학습/평가 가능 하도록 정리  
 원본: https://github.com/PuFanqi23/MonoDGP
  
 
