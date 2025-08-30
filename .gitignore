@@ -1,5 +1,21 @@
-outputs/
+# === 데이터/결과/캐시 제외 ===
 data/
+logs/
+outputs/
 *.pth
 *.log
+tensorboard/
+wandb/
+
+# === OS/IDE 잡파일 ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === 파이썬 빌드/캐시 ===
+__pycache__/
+*.pyc
 build/
+dist/
+*.egg-info/
