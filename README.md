@@ -47,4 +47,4 @@
 - `configs/monodgp_windows_example.yaml`에서:
   ```yaml
   dataset:
-    root_dir: C:\Users\eggso\MonoDGP\data\kitti
+    root_dir: ..\MonoDGP\data\kitti
