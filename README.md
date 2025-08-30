@@ -49,7 +49,8 @@
 - `configs/monodgp_windows_example.yaml`에서:
   ```yaml
   dataset:
-    root_dir: ..\MonoDGP\data\kitti
+      root_dir: C:\Users\PUBLIC\kitti   # 예시(문서에서 바꾸라고 안내)
+
   ```
 
   ## 평가/학습
