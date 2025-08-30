@@ -1,7 +1,7 @@
 import numpy as np
 import numba
 import io as sysio
-from .iou_backend import rotate_iou_gpu_eval
+from .iou_backend import rotate_iou_gpu_eval #원래 import 대상이 Numba/CUDA 구현이라 충돌. 우리가 만든 CPU IoU 함수로 바인딩을 바꿔 나머지 평가 로직은 그대로 쓰게끔 함.
 
 
 DISTANCE_COVER = False
