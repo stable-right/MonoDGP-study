@@ -43,7 +43,7 @@
 
 ## 데이터 경로 (KITTI)
 
-- 로컬: `C:\Users\eggso\MonoDGP\data\kitti`  
+- 로컬: `..\MonoDGP\data\kitti`  
 - `configs/monodgp_windows_example.yaml`에서:
   ```yaml
   dataset:
