@@ -1,13 +1,14 @@
 ## IOU_BACKEND (OpenCV, CPU)
 
-## 교체 이유
-- 원본 Numba CUDA IoU는 window/드라이버 초기화 실패/컨텍스트 이슈가 잦음.
-- OpenCV CPU 백엔드는 항상 동작하고, mAP 계산은 동일(속도만 살짝 느려짐).
+### 교체 이유
+- 일부 최신 GPU 조합(예: RTX 50xx, SM 12.0)에서 Numba CUDA 경로가 **NVVM/컨텍스트 초기화 이슈**로 불안정할 수 있음.
+- OpenCV 기반 **CPU 백엔드**는 항상 동작하며 **계산 결과(값)는 동일**(속도만 느려짐).
 
-## 파일/연결
+### 파일/연결
 - 파일: `lib/datasets/kitti/kitti_eval_python/iou_backend.py`
-- `eval.py`에서 import를 아래처럼 유지
-```python
+- 사용(변경 없음):
+  ```python
+  # eval.py
   from .iou_backend import rotate_iou_gpu_eval
 ```
 
