@@ -10,7 +10,6 @@
   ```python
   # eval.py
   from .iou_backend import rotate_iou_gpu_eval
-```
 
 ## 입력 형식
 - 박스: [cx, cy, w, h, yaw], yaw는 라디안(rad), 시계방향(CW) 양수
